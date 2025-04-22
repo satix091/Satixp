@@ -1,8 +1,8 @@
-local Neox = loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/newneoxlib\"))()
+local Satix = loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hassanxzayn-lua/SATIXHUBMAIN/refs/heads/main/newSatixlib\"))()
 
-local Window = Neox:CreateWindow({
-    Title = \"NEOX HUB  | Dead Rails v1.9.4\",
-    SubTitle = \"by hassanxzayn\",
+local Window = satix:CreateWindow({
+    Title = \"Satix HUB  | Dead Rails v1.9.4\",
+    SubTitle = \"by Satix_xiter\",
     TabWidth = 120,
     Size = UDim2.fromOffset(600, 450),
     Acrylic = false,
@@ -29,7 +29,7 @@ Tabs.Home:AddButton({
     Title = \"Join our discord\",
     Description = \"Click on this button to copy the invite link!\",
     Callback = function()
-        local inviteLink = \"https://discord.gg/99UuEwM9sX\"
+        local inviteLink = \"https://discord.gg/vfbr8QAB"
         
         if setclipboard then
             setclipboard(inviteLink)
